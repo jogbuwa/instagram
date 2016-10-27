@@ -1,0 +1,206 @@
+body {
+	width: 100%;
+	height: auto;
+	background-color: #f8fafa /*#D3D3D3;*/
+}
+
+h1 {
+	font-size: 20px;
+}
+
+p {
+	font-size: 10px;
+}
+
+h2 {
+	font-size: 10px;
+}
+
+nav {
+	width: 100%;
+	height: auto;
+	display: block;
+	background-color: #ffffff;
+}
+
+img {
+	width: 150px;
+	height: 120px;
+	margin: 5px;
+	border: 5px solid #ffffff;
+}
+aside {
+	float: left;
+	margin-top: 40px;
+	text-align: center;
+	width: 23%;	
+	display: inline-block;
+    padding-top: 23px;
+}
+button {
+	background-color: #33cc33;
+	color: #ffffff;
+	font-size: 15px;
+	font-family: sans-serif;
+	width:100px;
+	border-style: none;
+	padding: 5px;
+	border-radius: 5px;
+}
+button:hover {
+	background-color: #3079ed;
+}
+.swing{
+    float: right;
+    padding: 20px;
+    /*padding-bottom: 70px;#rightlogo{
+   margin-top: -100px;
+}
+    margin: 20px; /*attend to - initially margin-right = 20px*/
+    margin-top: 40px;
+    width: 70%;
+    display: inline;
+}
+.info {
+	background-color: #ffffff;
+	margin-left: 10px;
+	padding: 0;
+	border: solid #f8fafa;
+}
+
+.fllwr {
+	width: 48%;
+	margin-top: 10px;
+	border-right: ridge;
+}
+.fllng {
+	width: 48%;
+	float: right;
+	margin-top: -53px;
+}
+#home {
+	width: 40px;
+	height: 30px;
+	border-right: solid #f8fafa;
+	display: inline-block;
+}
+
+#logo {
+	width: 150px;
+	height: 30px;
+	margin-left: 480px;
+	display: inline ;
+	
+}
+
+#profile {
+	width: 40px;
+	height: 30px;
+	float: right;
+	border-radius: 100%;
+	padding-right: 10px;
+	display: inline-block;
+}
+
+#profilePic {
+	width: 70px;
+	height: 50px;
+	border-radius: 100%;
+	margin-top: -40px;
+}
+#mail {
+	width: 20px;
+	height: 10px;
+	display: inline-block;
+	border-style: none;
+}
+#chinny {
+	width: 40px;
+	height: 30px;
+	border-radius: 100%;
+	display: inline;
+	border-style: none;
+	float: left;
+}
+#jude {
+	width: 40px;
+	height: 30px;
+	border-radius: 100%;
+	display: inline;
+	border-style: none;
+	float: left;
+}
+#sandra {
+	width: 40px;
+	height: 30px;
+	border-radius: 100%;
+	display: inline;
+	border-style: none;
+	float: left;
+}
+#kenny {
+	width: 40px;
+	height: 30px;
+	border-radius: 100%;
+	display: inline;
+	border-style: none;
+	float: left;
+}
+#king {
+	width: 40px;
+	height: 30px;
+	border-radius: 100%;
+	display: inline;
+	border-style: none;
+	float: left;
+}
+footer {
+	clear: both;
+	text-align: center;
+	background-color: #ffffff;
+	height: 30px;
+	padding: 5px;
+}
+a {
+	text-decoration: none;
+	font-size: 10px;
+	color: #000000;
+}
+.web{
+	font-size: 10px;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+   .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+   .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
